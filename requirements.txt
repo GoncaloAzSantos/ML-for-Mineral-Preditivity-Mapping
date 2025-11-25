@@ -1,0 +1,28 @@
+# Requirements for the Data_Integration project
+#
+# Usage:
+# 1) Create and activate a virtual environment (recommended):
+#    - Windows (PowerShell):  python -m venv .venv; .venv\Scripts\Activate.ps1
+# 2) Install the dependencies:
+#    pip install -r requirements.txt
+
+numpy>=1.22
+scipy>=1.8
+scikit-learn>=1.0
+imbalanced-learn>=0.9
+
+# GIS / raster & vector data
+rasterio>=1.3
+geopandas>=0.12
+shapely>=1.8
+fiona>=1.8
+pyproj>=3.2
+
+# Modeling extras
+xgboost>=1.7
+catboost>=1.2
+joblib>=1.1
+
+# Visualization
+matplotlib>=3.5
+seaborn>=0.12
